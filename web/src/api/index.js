@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 // Set URL
-const URL = 'http://localhost:8080'
+const URL = 'https://api.gdnws.co.uk/api'
 
 /**
  * Make a get request with axios

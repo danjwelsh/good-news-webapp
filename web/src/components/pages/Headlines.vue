@@ -9,7 +9,7 @@
           <div v-else="isBusy">
             <button class="button" v-on:click="setPositive" v-bind:class="{ positive: isPositive }">{{content.buttons.selectors.pos}}</button>
             <button class="button" v-on:click="setNegative" v-bind:class="{ negative: !isPositive }">{{content.buttons.selectors.neg}}</button>
-            <headline v-for="headline in headlines" v-bind:headline="headline" ></headline>
+            <headline v-for="headline in headlines" v-bind:headline="headline" v-bind:key="headline.id"></headline>
           </div>
         </section>
       </div>
