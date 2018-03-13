@@ -1,0 +1,15 @@
+{
+  "title": "Bad News!",
+  "subtitle": "Read only the most negative headlines, everything is broken! 💣",
+  "nav": {
+    "about": "About",
+    "cookies": "Cookies",
+    "author": "Author"
+  },
+  "buttons": {
+    "selectors": {
+      "pos": "Positive",
+      "neg": "Negative"
+    }
+  }
+}
