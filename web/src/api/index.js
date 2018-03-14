@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 // Set URL
-const URL = 'https://api.gdnws.co.uk/api'
+const URL = 'https://api.gdnws.co.uk'
 
 /**
  * Make a get request with axios
