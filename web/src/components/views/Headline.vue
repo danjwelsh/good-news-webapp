@@ -2,9 +2,11 @@
   <div id="headline">
     <div class="columns is-mobile">
       <div class="column is-12 headline-title">
-        <p class="is-size-4">
-          {{headline.headline}}
-        </p>
+        <a :href="headline.link" target="_blank">
+          <p class="is-size-4">
+            {{headline.headline}}
+          </p>
+        </a>
       </div>
     </div>
     <div class="columns is-mobile headline-info">
@@ -169,9 +171,6 @@ export default {
   }
 
   svg {
-    // cursor: pointer;
-
-
     #up.pos {
       stroke: $yellow;
     }
@@ -179,6 +178,14 @@ export default {
     #down.neg {
       stroke: $yellow;
     }
+  }
+
+  a {
+    color: #666666;
+  }
+
+  a:hover {
+    color: #222222;
   }
 }
 </style>
