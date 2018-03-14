@@ -8,6 +8,11 @@
             <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
             <br />
             <i class="fa fa-github" aria-hidden="true"></i> Check out the code for the <a href="https://github.com/danjwelsh/good-news">API</a> and the <a href="https://github.com/danjwelsh/good-news-webapp">website</a>!
+            <br />
+            <br />
+            If you think I've been a real top boy, send me some of those Bitcoins 💅
+            <br />
+            35QR2K69ULN3jzDQK1AcZYyo41KppxsYMN
           </p>
         </div>
       </div>
