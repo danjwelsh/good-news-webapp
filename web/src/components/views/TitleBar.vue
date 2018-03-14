@@ -12,6 +12,12 @@
           <h2 class="subtitle">
             {{content.subtitle}}
           </h2>
+          <p>
+            Good News is a machine learning approach sentiment analysis over news headlines.
+            <br />
+            <br />
+            <strong>Help improve Good News and vote up headlines if they are categorised correctly, or vote headlines down if it hasnt!</strong>
+          </p>
         </div>
       </div>
       <div class="hero-footer">
