@@ -4,8 +4,8 @@
       <div class="container">
         <div class="content has-text-centered">
           <p>
-            <strong>Good News!</strong> by <a href="https://dwelsh.uk">Daniel Welsh</a>. The source code is licensed
-            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+            <strong>Good News!</strong> by <a href="https://dwelsh.uk">Daniel Welsh</a>. The source code is licensed under the
+            <a href="https://opensource.org/licenses/BSD-3-Clause">3-Clause BSD License</a>.
             <br />
             <i class="fa fa-github" aria-hidden="true"></i> Check out the code for the <a href="https://github.com/danjwelsh/good-news">API</a> and the <a href="https://github.com/danjwelsh/good-news-webapp">website</a>!
             <br />
