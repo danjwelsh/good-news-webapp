@@ -23,30 +23,26 @@
         <p>
           <!-- 👍  👎 -->
           <button class="button" :disabled="voted" v-on:click="votePos">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" >
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs></defs>
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-                    <g id="Artboard-4" transform="translate(-488.000000, -1046.000000)" stroke="#333333" stroke-width="2">
-                        <g id="Extras" transform="translate(48.000000, 1046.000000)">
-                            <g id="up" transform="translate(440.000000, 0.000000)" v-bind:class="{pos: votedPos}">
-                                <path d="M12,4 L12,21" id="Path-58"></path>
-                                <polyline id="Path-59" stroke-linejoin="round" transform="translate(12.000000, 7.000000) scale(-1, 1) translate(-12.000000, -7.000000) " points="4 11 12 3 20 11"></polyline>
-                            </g>
+                    <g id="Artboard-4" transform="translate(-356.000000, -115.000000)" stroke="#333333" stroke-width="2">
+                        <g id="8" transform="translate(356.000000, 115.000000)" v-bind:class="{pos: votedPos}">
+                            <path d="M21,6 L9,18" id="Path-14"></path>
+                            <path d="M9,13 L4,18" id="Path-14" transform="translate(6.500000, 15.500000) scale(-1, 1) translate(-6.500000, -15.500000) "></path>
                         </g>
                     </g>
                 </g>
             </svg>
           </button>
           <button class="button" :disabled="voted" v-on:click="voteNeg">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" >
+            <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs></defs>
                 <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
-                    <g id="Artboard-4" transform="translate(-532.000000, -1046.000000)" stroke="#333333" stroke-width="2">
-                        <g id="Extras" transform="translate(48.000000, 1046.000000)">
-                            <g id="down" transform="translate(484.000000, 0.000000)" v-bind:class="{neg: votedNeg}">
-                                <path d="M12,3 L12,20" id="Path-58"></path>
-                                <polyline id="Path-59" stroke-linejoin="round" transform="translate(12.000000, 17.000000) scale(-1, -1) translate(-12.000000, -17.000000) " points="4 21 12 13 20 21"></polyline>
-                            </g>
+                    <g id="Artboard-4" transform="translate(-312.000000, -115.000000)" stroke="#333333" stroke-width="2">
+                        <g id="7" transform="translate(312.000000, 115.000000)" v-bind:class="{neg: votedNeg}">
+                            <path d="M19,5 L5,19" id="Path-14"></path>
+                            <path d="M19,5 L5,19" id="Path-14" transform="translate(12.000000, 12.000000) scale(-1, 1) translate(-12.000000, -12.000000) "></path>
                         </g>
                     </g>
                 </g>
@@ -171,11 +167,11 @@ export default {
   }
 
   svg {
-    #up.pos {
+    .pos {
       stroke: $yellow;
     }
 
-    #down.neg {
+    .neg {
       stroke: $yellow;
     }
   }

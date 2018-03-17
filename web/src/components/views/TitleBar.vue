@@ -15,8 +15,7 @@
           <p>
             Good News is a machine learning approach sentiment analysis over news headlines.
             <br />
-            <br />
-            <strong>Help improve Good News and vote up headlines if they are categorised correctly, or vote headlines down if it hasnt!</strong>
+            <strong>Help improve Good News and give headlines a tick or a cross if it guessed them right!</strong>
           </p>
         </div>
       </div>

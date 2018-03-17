@@ -13,6 +13,9 @@
             If you think I've been a real top boy, send me some of those Bitcoins 💅
             <br />
             35QR2K69ULN3jzDQK1AcZYyo41KppxsYMN
+            <br />
+            <br />
+            Headlines from <a href="http://newsapi.org">newsapi.org</a>.
           </p>
         </div>
       </div>
